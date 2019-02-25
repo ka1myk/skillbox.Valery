@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="ru">
+	<head>
+		<title>Отправка заявки на конференцию</title>
+	</head>
+	<body>
+	<form method="post" action="#" enctype="multipart/form-data">
+		<h1>Отправка заявки на конференцию</h1>
+		<h2>Основные данные</h2>
+		<h3>* Фамилия, имя, отчество:</h3>			
+			<input type="text" name="name" required size="40">			
+		<h3>Дата рождения:</h3>			
+			<input type="text" name="birth" placeholder="дд.мм.гггг" size="10">			
+		<h3>Пол:</h3>			
+			<input type="radio" name="sex" value="man">&nbsp;мужской
+			<input type="radio" name="sex" value="woman">&nbsp;женский			
+		<h2>Данные для создания личного кабинета</h2>
+		<h3>* Адрес электронной почты:</h3>			
+			<input type="email" name="email" required size="40">			
+		<h3>* Пароль для создания личного кабинета:</h3>			
+			<input type="password" name="password" required size="40">			
+		<h3>* Подтверждение пароля:</h3>
+			<input type="password" name="password2" required size="40">			
+		<h2>Материалы для конференции</h2>
+		<h3>Тема доклада:</h3>			
+			<input type="text" name="theme" size="40">			
+		<h3>Тезисы доклада (не более 1000 символов):</h3>			
+			<textarea cols="40" rows="10"></textarea>			
+		<h3>Файл презентации:</h3>			
+			<input type="file" name="file">			
+		<h2>Дополнительные опции</h2>			
+			<input type="checkbox" name="staying" id="staying">&nbsp;<label for="staying">Проживание в отеле</label><br>
+			<input type="checkbox" name="breakfast" id="breakfast" checked>&nbsp;<label for="breakfast">Завтрак</label><br>
+			<input type="checkbox" name="supper" id="supper">&nbsp;<label for="supper">Обед</label><br>
+			<input type="checkbox" name="dinner" id="dinner">&nbsp;<label for="dinner">Ужин</label><br>			
+		<hr>			
+			<input type="submit" name="submit">				
+		<hr>
+			<small>* Поля, отмеченные звездочкой, являются обязательными для заполнения</small>
+	</form>
+	</body>
+</html>

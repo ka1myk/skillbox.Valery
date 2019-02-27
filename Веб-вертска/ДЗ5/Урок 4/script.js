@@ -33,7 +33,7 @@ $(function(){
 		  }
 		}
 
-		var x = window.matchMedia("(max-width: 768px)")
+		var x = window.matchMedia("(max-width: 950px)")
 		menuFunction(x) // Call listener function at run time
 		x.addListener(menuFunction) // Attach listener function on state changes
 
@@ -49,7 +49,7 @@ $(function(){
 		searchFunction(xx) // Call listener function at run time
 		xx.addListener(searchFunction) // Attach listener function on state changes
 
-		if (window.matchMedia('(max-width: 768px)').matches)
+		if (window.matchMedia('(max-width: 950px)').matches)
 		{
 		    $('#menu-mobile').on('click', function()
 		    {

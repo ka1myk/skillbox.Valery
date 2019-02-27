@@ -208,9 +208,7 @@ main {
 }
 
 main .fixed-container {
-	overflow-y: hidden;
-	max-width: 100%; 
-	overflow-x: auto;
+	overflow-y: hidden;	
 }
 
 .flex {
@@ -769,14 +767,16 @@ aside {
 	@media (max-width: 590px) {
 		aside {
 			display: flex;
-			min-width: 520px;
+			width: 100%;
 			flex-wrap: nowrap;
-			justify-content: space-between;
-			padding-top: 20px;
+			justify-content: space-between;			
+			overflow-x: auto;
+   			white-space: nowrap;
 		}			
 		aside img {
 			height: 400px;
 			object-fit: cover;
+			padding: 20px;
 		}
 	}
 

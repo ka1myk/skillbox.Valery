@@ -6,6 +6,7 @@ html, body {
 
 header {
 	height: 100px;
+	position: relative;
 }
 
 h2 {
@@ -663,7 +664,7 @@ aside {
 			display: block;
 		}
 		header {
-			height: 50px;
+			height: 100px;
 		}
 		#header-time {
 			display: none;
@@ -698,9 +699,12 @@ aside {
 			padding: 0;
 		}
 		#mobile-header {
-			display: block;			
+			display: flex;
+			justify-content: space-around;
+			position: absolute;
+			top: 30px;			
 			order: -2;
-			max-width: 950px;		
+					
 		}
 	}
 

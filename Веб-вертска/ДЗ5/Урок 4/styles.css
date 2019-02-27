@@ -741,7 +741,10 @@ aside {
 		.fixed-container {
 			padding: 0;
 		}
-		
+		#datetime {
+			padding-right: 20px;
+		}
+
 		#black-bar p{
 			padding-left: 20px;
 		}	

@@ -227,7 +227,8 @@ main .fixed-container {
 
 #column-left {
 	background-color: #FFFFFF;
-	width: 250px;
+	flex-basis: 250px;
+	flex-grow: 1;
 	/* float: left; */
 }
 
@@ -652,6 +653,8 @@ aside {
 		}
 	}	
 	
+	
+
 	@media (max-width: 768px) {
 		.fixed-container {
 			padding: 0;
@@ -732,11 +735,7 @@ aside {
 		.flex {
 			flex-wrap: wrap;
 			justify-content: space-between;
-		}
-		#column-center{
-			order: -1;
-			margin: 0 0 20px;
-		}
+		}		
 		#column-left {
 			flex-basis: 320px;
 			flex-grow: 1;

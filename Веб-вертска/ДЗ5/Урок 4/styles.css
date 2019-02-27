@@ -221,11 +221,13 @@ main .fixed-container {
 
 .flex {
 	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
 }
 
 #column-left {
 	background-color: #FFFFFF;
-	min-width: 250px;
+	width: 250px;
 	/* float: left; */
 }
 

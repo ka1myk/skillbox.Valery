@@ -213,11 +213,14 @@ main .fixed-container {
 
 .flex {
 	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
 }
 
 #column-left {
 	background-color: #FFFFFF;
-	min-width: 250px;
+	width: 250px;
+	flex-grow: 1;
 	/* float: left; */
 }
 
@@ -715,6 +718,12 @@ aside {
 			flex-wrap: wrap;
 			height: 450px;
 		}				
+	}
+	@media (max-width: 790px) {
+		#column-center{
+			order: -1;
+			margin: 0 0 20px 20px;
+		}
 	}	
 	
 	@media (max-width: 768px) {
@@ -724,19 +733,10 @@ aside {
 		
 		#black-bar {
 			padding: 20px 20px;
-		}		
+		}	
 		
-		.flex {
-			flex-wrap: wrap;
-			justify-content: space-between;
-		}
-		#column-center{
-			order: -1;
-			margin: 0 0 20px;
-		}
-		#column-left {
-			flex-basis: 320px;
-			flex-grow: 1;
+		
+		#column-left {			
 			margin-right: 20px;
 		}
 		#special-column-right {

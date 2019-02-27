@@ -44,10 +44,15 @@ footer ol {
 	#black-bar a {
 		color: white;
 	}
+	#black-bar p {
+		margin: 0;
+		display: inline-block;
+	}
 		
 	#datetime {
 	float: right;
 	}	
+	
 	
 .fixed-container {
 	max-width: 1000px;
@@ -737,8 +742,8 @@ aside {
 			padding: 0;
 		}
 		
-		#black-bar {
-			padding: 20px 20px;
+		#black-bar p{
+			padding-left: 20px;
 		}	
 		
 		

@@ -150,37 +150,26 @@ footer ol {
 		display: none;
 	}
 	
-	#mobile-header {
-		height: 100px;
-		min-width: 400px;
+	#mobile-header {		
 		display: none;		
 	}
 		#mob-data {
-			position: absolute;
-			top: 30px;
-			left: 23px;
 			color: #91919f;
-			font-size: 15px;
+			font-size: 15px;			
 		}
-		#mob-time {
-			position: absolute;
-			font-size: 15px;
-			top: 30px;
-			left: 128px;
+		#mob-time {			
+			font-size: 15px;			
 			color: #91919f;
 			padding-left: 25px;
 			background-image: url('img/icon-time.png');
 			background-repeat: no-repeat;
 			background-size: 17px;
 		}
-		#mob-weather {
-			position: absolute;
-			top: 24px;
-			left: 210px;
+		#mob-weather {			
 			background-image: url(img/weather.png);
 			background-repeat: no-repeat;
 			background-size: 30px 22px;
-			padding: 5px 0 5px 35px;
+			padding-left: 35px;
 			color: #91919f;
 			font-size: 15px;
 		}
@@ -660,10 +649,7 @@ aside {
 		}
 		#black-bar {
 			padding: 20px 20px;
-		}
-		#header-data {
-			display: none;
-		}
+		}		
 		#logo {
 			left: 75px;
 			top: 12px;
@@ -715,14 +701,14 @@ aside {
 			height: 20px;
 			width: 20px;
 			padding: 0;
-		}
-		#header-data {
-			display: none;
 		}		
-		#mobile-header {
-			display: block;			
-			order: -2;
 			
+		#mobile-header {
+			display: flex;
+			height: 50px;
+			justify-content: space-around;	
+			align-items: center;		
+					
 		}
 		#header-data, #header-time {
 			display: none;
@@ -778,10 +764,7 @@ aside {
 			flex-wrap: wrap;
 			justify-content: center;
 
-		}
-		.about-item-cell {
-
-		}
+		}		
 		#contactsref {
 			order: 1;
 			align-self: flex-start;

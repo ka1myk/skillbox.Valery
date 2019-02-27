@@ -152,8 +152,7 @@ footer ol {
 	}
 	
 	#mobile-header {
-		height: 100px;
-		min-width: 400px;
+		height: 50px;		
 		display: none;		
 	}
 		#mob-data {
@@ -699,12 +698,11 @@ aside {
 			padding: 0;
 		}
 		#mobile-header {
-			display: flex;
-			justify-content: space-around;
+			display: block;			
 			position: absolute;
-			top: 30px;			
-			order: -2;
-					
+			top: 30px;					
+			width: 100%;
+			margin: 0 auto;		
 		}
 	}
 

@@ -562,7 +562,7 @@ aside {
 		height: 100px;
 		width: 270px;
 		display: flex;
-		flex-flow: column wrap;
+		flex-flow: column wrap;				
 	}
 
 	.about-item-cell {
@@ -773,17 +773,20 @@ aside {
 			border-width: 1px;
 		}
 		#about-item {
-			height: 138px;
+			height: 145px;
 		}		
 
 		#about-item-child {
-			height: 80px;
+			height: 90px;
 		}
-		#about-item-cell {
+		.about-item-cell {
 			width: 110px;
-			word-wrap: break-word;
+			word-wrap: break-word;	
+			padding: 5px 0;		
 		}
-
+		#brake {
+			line-height: 70%;
+		}
 		#contactsref {
 			order: 1;
 			align-self: flex-start;

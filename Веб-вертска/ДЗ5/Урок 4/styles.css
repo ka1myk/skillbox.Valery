@@ -550,13 +550,19 @@ aside {
 
 #about-item {
 	min-width: 270px;
-	height: 180px;	
+	height: 150px;	
 	display: flex;	
-	flex-direction: column;
+	align-items: flex-end;
+	background-image: url(img/logo2.png);
+	background-repeat: no-repeat;
 }
 
-	#about-item img{
-		margin-bottom: 10px;
+
+	#about-item-child {
+		height: 100px;
+		width: 270px;
+		display: flex;
+		flex-flow: column wrap;
 	}
 
 	.about-item-cell {
@@ -768,10 +774,16 @@ aside {
 		}
 		#about-item {
 			height: 138px;
-			flex-wrap: wrap;
-			justify-content: center;
-
 		}		
+
+		#about-item-child {
+			height: 80px;
+		}
+		#about-item-cell {
+			width: 110px;
+			word-wrap: break-word;
+		}
+
 		#contactsref {
 			order: 1;
 			align-self: flex-start;

@@ -640,6 +640,34 @@ aside {
 			display: none;
 		}
 	}
+	@media (max-width: 950px) {
+		nav {
+			width: 300px;
+			position: sticky;			
+			z-index: 10;
+			height: auto;
+			
+		}
+		
+		nav ol {
+			list-style-type: none;
+		    background-color: white;
+		    margin: 0;
+		    border-top: #f9f9f9 solid 3px;
+		    padding-top: 0;
+		}
+		nav li {
+			padding: 10px 25px;
+			border-bottom: #f9f9f9 solid 5px;
+			width: 100%;
+			color: white;
+		}		
+		
+		#menu-mobile {
+			display: block;
+		}
+	}
+
 	@media (max-width: 840px) {
 		footer {
 			height: 450px;
@@ -678,31 +706,8 @@ aside {
 			width: 175px;
 
 		}
-		nav {
-			width: 300px;
-			position: sticky;			
-			z-index: 10;
-			height: auto;
-			
-		}
 		
-		nav ol {
-			list-style-type: none;
-		    background-color: white;
-		    margin: 0;
-		    border-top: #f9f9f9 solid 3px;
-		    padding-top: 0;
-		}
-		nav li {
-			padding: 10px 25px;
-			border-bottom: #f9f9f9 solid 5px;
-			width: 100%;
-			color: white;
-		}		
 		
-		#menu-mobile {
-			display: block;
-		}
 		#selectcity {
 			display: none;
 		}				

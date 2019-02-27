@@ -33,21 +33,21 @@ $(function(){
 		  }
 		}
 
-		var x = window.matchMedia("(max-width: 768px)")
+		var x = window.matchMedia("(max-width: 950px)")
 		menuFunction(x) // Call listener function at run time
 		x.addListener(menuFunction) // Attach listener function on state changes
 
-		function searchFunction(xx) {
-		  if (xx.matches) { // If media query matches
+		function searchFunction(c) {
+		  if (c.matches) { // If media query matches
 		    $('#search-line').hide();
 		  } else {
 		    $('#search-line').show();
 		  }
 		}
 
-		var xx = window.matchMedia("(max-width: 530px)")
-		searchFunction(xx) // Call listener function at run time
-		xx.addListener(searchFunction) // Attach listener function on state changes
+		var c = window.matchMedia("(max-width: 530px)")
+		searchFunction(c) // Call listener function at run time
+		c.addListener(searchFunction) // Attach listener function on state changes
 
 		if (window.matchMedia('(max-width: 768px)').matches)
 		{

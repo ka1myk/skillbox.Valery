@@ -54,12 +54,15 @@ $(function(){
 		    $('#menu-mobile').on('click', function()
 		    {
 		        var mobMenu = $('nav');
+		        var mobprop = $('#mobile-header');
 		        if(mobMenu.is(':visible'))
 		        {
 		           mobMenu.hide();
+		           mobprop.show();
 		        } 
 		        else {
 		           mobMenu.show();
+		           mobprop.hide();
 		        }
 
 		        return false;

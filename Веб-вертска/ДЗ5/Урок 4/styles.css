@@ -829,8 +829,23 @@ aside {
 			margin: 0 0 20px 0;
 		}
 	}
+	@media (max-width: 460px) {
+		#central-img-item {		
+			width: 425px;		
+			background-position: 80% 50%;
+			background-size: 160% 140%;		
+		}
+	}
+
+
 
 	@media (max-width: 425px) {
+		#central-img-item {		
+			width: 375px;		
+			background-position: 80% 50%;
+			background-size: 160% 140%;		
+		}
+
 		#central-column-flex {
 			width: 320px;
 		}
@@ -877,9 +892,9 @@ aside {
 			padding: 0;
 		}
 		#central-img-item {		
-			width: 375px;		
+			width: 320px;		
 			background-position: 80% 50%;
-			background-size: 160% 140%;		
+			background-size: 170% 130%;		
 		}		
 		#img-item-text a {
 			font-size: 26px;

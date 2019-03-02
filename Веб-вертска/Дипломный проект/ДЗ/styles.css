@@ -28,12 +28,14 @@ h3 {
 	font-size: 45px;
 	color: white;
 	margin: 85px 110px 45px 110px;
+	line-height: 60px;
 }
 
 p {
 	font-size: 18px;
 	color: white;
-	margin: 45px 110px 0 110px;
+	margin: 45px 190px 0 110px;
+	line-height: 30px;
 }
 
 

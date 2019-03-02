@@ -27,16 +27,18 @@ h3 {
 	font-weight: 700;
 	font-size: 45px;
 	color: white;
-	margin: 85px 110px 45px 110px;
+	margin: 85px auto 45px;
 	line-height: 60px;
+	max-width: 945px;
 }
 
 p {
 	font-size: 18px;
 	color: white;
-	margin: 45px 190px 0 123px;
+	margin: 45px auto 85px;
 	line-height: 30px;
 	text-indent: -13px;
+	max-width: 932px;
 }
 
 
@@ -118,6 +120,6 @@ main .fixed-container {
 }
 
 #price {
-	height: 360px;
+	height: auto;
 	background: linear-gradient(20deg, #ff8f5a 35%, #ff2f96 75%);
 }

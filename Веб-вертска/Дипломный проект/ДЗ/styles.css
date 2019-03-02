@@ -25,13 +25,15 @@ footer ol {
 
 h3 {
 	font-weight: 700;
-	font-size: 25px;
+	font-size: 45px;
 	color: white;
+	margin: 85px 110px 45px 110px;
 }
 
-small{
+p {
 	font-size: 18px;
 	color: white;
+	margin: 45px 110px 0 110px;
 }
 
 

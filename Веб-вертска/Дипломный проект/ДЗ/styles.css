@@ -27,7 +27,7 @@ h3 {
 	font-weight: 700;
 	font-size: 45px;
 	color: white;
-	margin: 85px auto 45px;
+	margin: 85px auto 50px;
 	line-height: 60px;
 	max-width: 945px;
 }
@@ -35,10 +35,11 @@ h3 {
 p {
 	font-size: 18px;
 	color: white;
-	margin: 45px auto 85px;	
+	margin: 50px auto 85px;	
 	line-height: 30px;
 	text-indent: -13px;
-	max-width: 930px;
+	max-width: 945px;
+	padding-left: 13px;
 }
 
 
@@ -124,11 +125,22 @@ main .fixed-container {
 	background: linear-gradient(20deg, #ff8f5a 35%, #ff2f96 75%);
 }
 
-@media (max-width: 320px) {
+@media (max-width: 768px) {
+	h3 {
+		font-size: 36px;
+		line-height: 50px;
+		}		
+}
+
+@media (max-width: 375px) {
 	h3 {
 		font-size: 28px;
+		line-height: 40px;
+		margin-top: 50px;
 	}
 	p {
-		font-size: 14px;
+		font-size: 15px;
+		padding-left: 13px;	
+		margin-bottom: 50px;	
 	}
 }

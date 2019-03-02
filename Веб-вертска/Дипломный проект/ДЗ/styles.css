@@ -107,7 +107,10 @@ main .fixed-container {
 
 #intro {
 	height: 670px;
-	background-image: url(img/Ellipse1.svg) no-repeat right;
+	background-image: url(img/Ellipse1.svg);
+	background-repeat: no-repeat;
+	background-position: top right;
+	background-size: 920px 765px;
 	
 }
 

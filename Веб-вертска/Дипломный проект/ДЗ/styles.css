@@ -34,8 +34,9 @@ h3 {
 p {
 	font-size: 18px;
 	color: white;
-	margin: 45px 190px 0 110px;
+	margin: 45px 190px 0 123px;
 	line-height: 30px;
+	text-indent: -13px;
 }
 
 

@@ -1,7 +1,9 @@
+
+
 html, body {
 	margin: 0;
 	padding: 0;
-	font-family: Arial;
+	font-family: 'Roboto';
 }
 
 header {
@@ -29,8 +31,9 @@ footer ol {
 }
 	
 nav {
-	width: 290px;
+	width: 300px;
 	position: absolute;
+	top: 40px;
 }
 
 	nav ol {
@@ -49,8 +52,11 @@ nav {
 	}
 .telephone {
 	position: absolute;
-	right: 235px;
-	top: 38px;
+	right: 255px;
+	top: 35px;
+	font-size: 25px;	
+	font-style: normal;
+	font-weight: 700;
 }
 .call {
 	position: absolute;
@@ -60,6 +66,10 @@ nav {
 	width: 206px;
 	background: none;
 	border: 2px solid #f82370;
+	color: #f82370;
+	font-size: 16px;	
+	font-style: normal;
+	font-weight: 400;
 }
 
 main .fixed-container {

@@ -107,8 +107,7 @@ main .fixed-container {
 
 #intro {
 	height: 670px;
-	background-image: url(img/Ellipse.svg);
-	background-repeat: no-repeat;
+	
 }
 
 #services {

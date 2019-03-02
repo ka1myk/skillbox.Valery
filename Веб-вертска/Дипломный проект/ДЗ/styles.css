@@ -23,6 +23,17 @@ footer ol {
 	margin: 0;
 }
 
+h3 {
+	font-weight: 700;
+	font-size: 25px;
+	color: white;
+}
+
+small{
+	font-size: 18px;
+	color: white;
+}
+
 
 .fixed-container {
 	max-width: 1170px;
@@ -103,5 +114,5 @@ main .fixed-container {
 
 #price {
 	height: 360px;
-	background: linear-gradient(30deg, #ff8f5a 50%, #ff2f96 30%);
+	background: linear-gradient(20deg, #ff8f5a 35%, #ff2f96 75%);
 }

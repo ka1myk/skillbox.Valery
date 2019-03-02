@@ -103,5 +103,5 @@ main .fixed-container {
 
 #price {
 	height: 360px;
-	background-color: green;
+	background: linear-gradient(30deg, #ff8f5a 50%, #ff2f96 30%);
 }

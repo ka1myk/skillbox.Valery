@@ -59,7 +59,7 @@ nav {
 	height: 45px;
 	width: 206px;
 	background: none;
-	border-color: #f82370;
+	border: 2px solid #f82370;
 }
 
 main .fixed-container {

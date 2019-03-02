@@ -4,6 +4,8 @@ html, body {
 	margin: 0;
 	padding: 0;
 	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 400;
 }
 
 header {
@@ -31,7 +33,7 @@ footer ol {
 }
 	
 nav {
-	width: 300px;
+	width: 320px;
 	position: absolute;
 	top: 40px;
 }
@@ -39,23 +41,26 @@ nav {
 	nav ol {
 		list-style-type: none;		
 		margin: 0;
+		padding: 0;
 	}
 	
 	nav li {
-		display: inline-block;		
+		display: inline-block;
+		padding-right: 30px;
 	}
 
 	.menu-cell a {
 		color: black;
 		text-decoration: none;
-		display: inline-block;		
+		display: inline-block;
+		font-size: 16px;	
+				
 	}
 .telephone {
 	position: absolute;
 	right: 255px;
 	top: 35px;
 	font-size: 25px;	
-	font-style: normal;
 	font-weight: 700;
 }
 .call {
@@ -68,8 +73,6 @@ nav {
 	border: 2px solid #f82370;
 	color: #f82370;
 	font-size: 16px;	
-	font-style: normal;
-	font-weight: 400;
 }
 
 main .fixed-container {

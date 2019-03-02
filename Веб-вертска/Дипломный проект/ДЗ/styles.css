@@ -47,7 +47,20 @@ nav {
 		text-decoration: none;
 		display: inline-block;		
 	}
-
+.telephone {
+	position: absolute;
+	right: 235px;
+	top: 38px;
+}
+.call {
+	position: absolute;
+	right: 20px;
+	top: 28px;
+	height: 45px;
+	width: 206px;
+	background: none;
+	border-color: #f82370;
+}
 
 main .fixed-container {
 	overflow-y: hidden;	

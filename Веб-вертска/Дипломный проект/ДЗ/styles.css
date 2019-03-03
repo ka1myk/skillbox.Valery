@@ -129,7 +129,7 @@ nav {
 	position: relative;
 	overflow: hidden;	
 }
-	#intro p {
+	#descintro p {
 		font-size: 25px;
 		color: #8993ad;
 		position: absolute;
@@ -209,12 +209,41 @@ nav {
 	#intro {
 		height: 550px;		
 	}
-	#intro p{
+	#descintro p{
 		font-size: 25px;
 		top: 220px;
 	}
 	#action1{
 		top: 340px;
+	}
+	#mobileinto {
+		display: none;
+	}
+	#ellipse {
+		right: -300px;
+		top: 125px;
+		height: 520px;
+	}
+	#photo {
+		right: 30px;
+		height: 500px;
+		width: 500px;
+	}
+	#photo image {
+		height: 500px;
+		width: 500px;
+	}
+}
+
+@media (max-width: 1200px) {
+	#intro {
+		height: 1000px;		
+	}
+	#descintro {
+		display: none;
+	}
+	#mobintro {
+		display: block;
 	}
 	#ellipse {
 		right: -300px;

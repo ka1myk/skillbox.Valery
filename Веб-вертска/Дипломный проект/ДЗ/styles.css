@@ -106,10 +106,15 @@ main .fixed-container {
 }
 
 #intro {
-	height: 670px;	
+	height: 700px;
+	position: relative;
 }
 	#intro svg {
-		z-index: -20;
+		z-index: -1;
+		position: absolute;
+		right: 0;
+		top: 30px;
+		fill: black;
 	}
 
 

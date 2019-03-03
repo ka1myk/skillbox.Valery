@@ -149,6 +149,23 @@ main .fixed-container {
 	background: linear-gradient(20deg, #ff8f5a 35%, #ff2f96 75%);
 }
 
+@media (max-width: 1024px) {
+	#ellipse {
+		right: -300px;
+		top: 275px;
+		height: 520px;
+	}
+	#photo {
+		right: 0;
+		height: 400px;
+		width: 400px;
+	}
+	#photo img {
+		height: 400px;
+		width: 400px;
+	}
+}
+
 @media (max-width: 768px) {
 	h3 {
 		font-size: 36px;

@@ -114,7 +114,7 @@ main .fixed-container {
 		position: absolute;
 		right: 0;
 		top: 30px;
-		fill: black;
+
 	}
 
 
@@ -154,4 +154,9 @@ main .fixed-container {
 		padding-left: 13px;	
 		margin-bottom: 50px;	
 	}
+}
+#gradient-horizontal {
+  --color-stop-1: #a770ef;
+  --color-stop-2: #cf8bf3;
+  --color-stop-3: #fdb99b;
 }

@@ -23,7 +23,11 @@ footer ol {
 	margin: 0;
 }
 
-
+h1 {
+	font-weight: 700;
+	font-size: 40px;
+	color: black;
+}
 
 h3 {
 	font-weight: 700;
@@ -113,12 +117,10 @@ main .fixed-container {
 	overflow: hidden;
 	z-index: 1;
 }
-	h1 {
-		font-weight: 700;
-		font-size: 40px;
-		color: black;
-		top: 200px;
-		left: 0;		
+
+	#name {
+		position: absolute;
+				
 	}
 	#ellipse {
 		z-index: -1;

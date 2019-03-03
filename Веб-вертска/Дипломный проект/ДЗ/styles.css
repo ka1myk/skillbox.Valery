@@ -179,6 +179,15 @@ nav {
 }
 
 @media (max-width: 1024px) {
+	h1 {
+		font-size: 
+	}
+}
+
+@media (max-width: 1024px) {
+	h1 {
+		font-size: 54px;
+	}
 	#intro {
 		height: 550px;		
 	}

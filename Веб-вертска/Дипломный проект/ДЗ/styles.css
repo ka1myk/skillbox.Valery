@@ -182,12 +182,13 @@ nav {
 	h1 {
 		font-size: 60px;
 	}
-}
-@media (max-width: 1480px) {
+	#intro {
+		height: 650px;		
+	}
 	#ellipse {
 		right: -200px;
 		height: 620px;
-		top: 160px;
+		top: 110px;
 	}
 	#photo {
 		right: 150px;
@@ -200,19 +201,20 @@ nav {
 	}
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 1200px) {
 	h1 {
 		font-size: 54px;
+		top: 160px;
 	}
 	#intro {
 		height: 550px;		
 	}
 	#intro p{
 		font-size: 25px;
-		top: 260px;
+		top: 220px;
 	}
 	#action1{
-		top: 380px;
+		top: 340px;
 	}
 	#ellipse {
 		right: -300px;

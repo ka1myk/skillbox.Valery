@@ -121,7 +121,7 @@ main .fixed-container {
 	}
 	#photo {
 		position: absolute;
-		top: 100;
+		top: 100px;
 		right: 100px;		
 	}
 

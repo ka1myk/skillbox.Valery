@@ -114,6 +114,10 @@ main .fixed-container {
 		position: absolute;
 		right: 0;
 		top: 30px;
+		max-width: 920px;
+		width: 100%;
+		max-height: 765px;
+		height: auto;
 	}
 	#gradient-horizontal { 
 	  --color-stop-1: #ff2f96;

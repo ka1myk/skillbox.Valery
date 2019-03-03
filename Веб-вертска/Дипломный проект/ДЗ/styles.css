@@ -155,8 +155,7 @@ main .fixed-container {
 		margin-bottom: 50px;	
 	}
 }
-#gradient-horizontal {
-  --color-stop-1: #a770ef;
-  --color-stop-2: #cf8bf3;
-  --color-stop-3: #fdb99b;
+#gradient-horizontal { 
+  --color-stop-1: #ff2f96;
+  --color-stop-2: #ff8f5a;
 }

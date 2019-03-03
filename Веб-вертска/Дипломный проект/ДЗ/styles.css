@@ -109,12 +109,20 @@ main .fixed-container {
 	height: 700px;
 	position: relative;
 }
-	#intro svg {
+	#ellipse {
 		z-index: -1;
 		position: absolute;
 		right: 0;
 		top: 30px;
-
+	}
+	#gradient-horizontal { 
+	  --color-stop-1: #ff2f96;
+	  --color-stop-2: #ff8f5a;
+	}
+	#photo {
+		position: absolute;
+		top: 100;
+		right: 100px;		
 	}
 
 
@@ -154,8 +162,4 @@ main .fixed-container {
 		padding-left: 13px;	
 		margin-bottom: 50px;	
 	}
-}
-#gradient-horizontal { 
-  --color-stop-1: #ff2f96;
-  --color-stop-2: #ff8f5a;
 }

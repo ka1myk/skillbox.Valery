@@ -178,9 +178,25 @@ nav {
 	background: linear-gradient(20deg, #ff8f5a 35%, #ff2f96 75%);
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 1680px) {
 	h1 {
-		font-size: 
+		font-size: 60px;
+	}
+}
+@media (max-width: 1480px) {
+	#ellipse {
+		right: -200px;
+		height: 620px;
+		top: 160px;
+	}
+	#photo {
+		right: 150px;
+		height: 550px;
+		width: 550px;
+	}
+	#photo image {
+		height: 550px;
+		width: 550px;
 	}
 }
 
@@ -190,6 +206,13 @@ nav {
 	}
 	#intro {
 		height: 550px;		
+	}
+	#intro p{
+		font-size: 25px;
+		top: 260px;
+	}
+	#action1{
+		top: 380px;
 	}
 	#ellipse {
 		right: -300px;
@@ -211,7 +234,7 @@ nav {
 	h3 {
 		font-size: 36px;
 		line-height: 50px;
-		}		
+	}		
 }
 
 @media (max-width: 375px) {

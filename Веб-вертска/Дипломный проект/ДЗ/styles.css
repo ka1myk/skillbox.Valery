@@ -58,6 +58,17 @@ p {
 	margin: 0 auto;
 	position: relative;	
 }
+
+.action {
+	width: 270px;
+	height: 60px;
+	background: none;
+	border: none;
+	background-color: #ff4e2e;
+	color: white;
+	font-size: 18px;
+	position: absolute;
+}	
 	
 nav {
 	width: 320px;
@@ -121,7 +132,13 @@ nav {
 	#intro p {
 		font-size: 25px;
 		color: #8993ad;
-	}			
+		position: absolute;
+		top: 290px;
+	}
+	#action1 {
+		top: 410px;
+	}
+
 	#ellipse {
 		z-index: -1;
 		position: absolute;

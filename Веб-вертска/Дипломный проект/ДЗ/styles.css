@@ -106,16 +106,16 @@ main .fixed-container {
 }
 
 #intro {
-	height: 670px;
-	background-image: url(img/Ellipse1.svg);
-	background-repeat: no-repeat;
-	background-position: top right;
-	background-size: 920px 765px;
-	
+	height: 670px;	
 }
+	#intro svg {
+		z-index: -20;
+	}
 
 
 #services {
+
+	z-index: 20;
 	height: 650px;	
 	background-color: green;
 	

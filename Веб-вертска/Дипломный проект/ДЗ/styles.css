@@ -129,7 +129,7 @@ nav {
 	position: relative;
 	overflow: hidden;	
 }
-	#descintro p {
+	#intro p {
 		font-size: 25px;
 		color: #8993ad;
 		position: absolute;
@@ -209,7 +209,7 @@ nav {
 	#intro {
 		height: 550px;		
 	}
-	#descintro p{
+	#intro p{
 		font-size: 25px;
 		top: 220px;
 	}
@@ -237,14 +237,8 @@ nav {
 
 @media (max-width: 1200px) {
 	#intro {
-		height: 1000px;		
-	}
-	#descintro {
-		display: none;
-	}
-	#mobintro {
-		display: block;
-	}
+		height: 550px;		
+	}	
 	#ellipse {
 		right: -300px;
 		top: 125px;

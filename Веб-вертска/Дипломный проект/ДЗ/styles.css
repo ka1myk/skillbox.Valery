@@ -144,10 +144,9 @@ nav {
 		position: absolute;
 		right: -120px;
 		top: 50px;
-		max-width: 920px;
-		width: 100%;
+		max-width: 920px;		
 		max-height: 765px;
-		height: auto;
+		
 	}
 	#gradient-horizontal { 
 	  --color-stop-1: #ff2f96;
@@ -277,6 +276,12 @@ nav {
 	#action1 {
 		margin: 0 auto;
 		z-index: 2;	
+	}
+	#ellipse {
+		right: 50%;
+	}
+	#photo {
+		right: 050%;
 	}
 }
 

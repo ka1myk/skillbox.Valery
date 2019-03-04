@@ -277,11 +277,11 @@ nav {
 		margin: 0 auto;
 		z-index: 2;	
 	}
-	#ellipse {
-		right: 50%;
+	#ellipse {		
+		right: -50px;
 	}
 	#photo {
-		right: 050%;
+		right: 150px;
 	}
 }
 
@@ -289,7 +289,22 @@ nav {
 	h3 {
 		font-size: 36px;
 		line-height: 50px;
-	}		
+	}
+	#ellipse {		
+		right: -80px;
+	}
+	#photo {
+		right: 100px;
+	}
+}
+
+@media (max-width: 700px) {
+	#ellipse {		
+		right: -180px;
+	}
+	#photo {
+		right: 30px;
+	}
 }
 
 @media (max-width: 375px) {

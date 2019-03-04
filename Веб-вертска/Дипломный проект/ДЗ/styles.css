@@ -242,12 +242,12 @@ nav {
 	}
 	#photo {
 		right: 30px;
-		height: 500px;
-		width: 500px;
+		height: 450px;
+		width: 450px;
 	}
 	#photo image {
-		height: 500px;
-		width: 500px;
+		height: 450px;
+		width: 450px;
 	}
 }
 @media (max-width: 980px) {
@@ -267,7 +267,8 @@ nav {
 	}
 	h1 {
 		margin: 0 auto;	
-		z-index: 2;	
+		z-index: 2;
+		top: 15px;
 	}
 	#intro p {
 		margin: 0 auto;
@@ -297,7 +298,16 @@ nav {
 		width: 400px;
 	}
 }
-
+@media (max-width: 440px) {
+	#photo {
+		height: 350px;
+		width: 350px;
+	}
+	#photo image {
+		height: 350px;
+		width: 350px;
+	}
+}
 
 @media (max-width: 375px) {
 	h3 {
@@ -311,9 +321,10 @@ nav {
 		margin-bottom: 50px;	
 	}
 	#intro {
-		height: 430px;
+		height: 630px;
 	}
 	#ellipse {
+		top: 80px;
 		height: 400px;
 	}
 	#photo {

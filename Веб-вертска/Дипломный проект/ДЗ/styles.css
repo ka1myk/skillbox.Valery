@@ -255,7 +255,7 @@ nav {
 		height: 750px;		
 	}
 	#intro .fixed-container {
-		height: 200px;
+		height: 250px;
 		position: absolute;
 		bottom: 0;
 		width: 100%;
@@ -263,19 +263,27 @@ nav {
 		background-color: white;
 	}
 	#photo {
-		bottom: 200px;
+		bottom: 250px;
+	}
+	#ellipse {		
+		top: 75px;		
 	}
 	h1 {
 		margin: 0;
-		top: 15px;			
-		z-index: 2;		
+		top: 15px;
+		left: 50px;		
+		z-index: 2;
+		font-size: 50px;	
 	}
 	#intro p {
-		top: 35px;		
-		z-index: 2;	
+		top: 35px;	
+		left: 50px;	
+		z-index: 2;
+		font-size: 22px;
 	}
 	#action1 {
-		top: 135px;		
+		top: 155px;		
+		left: 50px;
 		z-index: 2;	
 	}
 	
@@ -288,6 +296,7 @@ nav {
 	}
 	
 }
+
 @media (max-width: 550px) {
 	#photo {
 		height: 400px;
@@ -296,6 +305,9 @@ nav {
 	#photo image {
 		height: 400px;
 		width: 400px;
+	}
+	h1 {		
+		font-size: 45px;	
 	}
 }
 @media (max-width: 440px) {

@@ -277,12 +277,7 @@ nav {
 		margin: 0 auto;
 		z-index: 2;	
 	}
-	#ellipse {		
-		right: -50px;
-	}
-	#photo {
-		right: 150px;
-	}
+	
 }
 
 @media (max-width: 768px) {
@@ -290,22 +285,19 @@ nav {
 		font-size: 36px;
 		line-height: 50px;
 	}
-	#ellipse {		
-		right: -80px;
-	}
+	
+}
+@media (max-width: 550px) {
 	#photo {
-		right: 100px;
+		height: 400px;
+		width: 400px;
+	}
+	#photo image {
+		height: 400px;
+		width: 400px;
 	}
 }
 
-@media (max-width: 700px) {
-	#ellipse {		
-		right: -180px;
-	}
-	#photo {
-		right: 30px;
-	}
-}
 
 @media (max-width: 375px) {
 	h3 {
@@ -317,5 +309,20 @@ nav {
 		font-size: 15px;
 		padding-left: 13px;	
 		margin-bottom: 50px;	
+	}
+	#intro {
+		height: 430px;
+	}
+	#ellipse {
+		height: 400px;
+	}
+	#photo {
+		height: 300px;
+		width: 300px;
+		right: 10px;
+	}
+	#photo image {
+		height: 300px;
+		width: 300px;
 	}
 }

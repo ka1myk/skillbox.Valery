@@ -266,16 +266,16 @@ nav {
 		bottom: 200px;
 	}
 	h1 {
-		margin: 0 auto;	
-		z-index: 2;
-		top: 15px;
+		margin: 0;
+		top: 15px;			
+		z-index: 2;		
 	}
 	#intro p {
-		margin: 0 auto;
+		top: 35px;		
 		z-index: 2;	
 	}
 	#action1 {
-		margin: 0 auto;
+		top: 135px;		
 		z-index: 2;	
 	}
 	

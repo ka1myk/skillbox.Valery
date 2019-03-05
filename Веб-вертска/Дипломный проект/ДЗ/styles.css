@@ -119,12 +119,13 @@ nav {
 	position: relative;
 	overflow: hidden;	
 }
-	#intro p {
-		font-size: 25px;
-		color: #8993ad;
+	#whois {
 		position: absolute;
-		top: 320px;		
+		top: 320px;
+		font-size: 25px;
+		color: #8993ad;	
 	}
+
 	#action1 {
 		top: 410px;
 	}
@@ -184,7 +185,7 @@ nav {
 	#intro {
 		height: 650px;		
 	}
-	#intro p{
+	#whois{
 		top: 300px;	
 	}
 	#action1 {
@@ -214,7 +215,7 @@ nav {
 	#intro {
 		height: 550px;		
 	}
-	#intro p{
+	#whois{
 		font-size: 25px;
 		top: 250px;
 	}
@@ -261,8 +262,8 @@ nav {
 		z-index: 2;
 		font-size: 50px;	
 	}
-	#intro p {
-		top: 70px;	
+	#whois {
+		top: 65px;	
 		left: 50px;	
 		z-index: 2;
 		font-size: 22px;
@@ -297,11 +298,14 @@ nav {
 		top: 30px;
 		left: 30px;
 	}
-	#intro p {
+	#whois {
 		left: 30px;
 		font-size: 20px;
 		white-space: pre-wrap;
 		text-align: center;
+	}
+	#action1{
+		left: 30px;
 	}
 }
 @media (max-width: 440px) {
@@ -317,9 +321,10 @@ nav {
 		font-size: 35px;		
 		left: 10px;
 	}
-	#intro p {
+	#whois {
 		left: 10px;
-		font-size: 18px;		
+		font-size: 18px;
+		width: 240px;	
 	}
 }
 
@@ -353,7 +358,8 @@ nav {
 	h1 {		
 		font-size: 30px;		
 	}
-	#intro p {		
+	#whois {		
 		font-size: 16px;		
+		height: 235px;	
 	}
 }

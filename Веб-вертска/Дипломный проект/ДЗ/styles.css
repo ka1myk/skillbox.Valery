@@ -40,16 +40,6 @@ h3 {
 	max-width: 945px;
 }
 
-p {
-	font-size: 18px;
-	color: white;
-	margin: 50px auto 85px;	
-	line-height: 30px;
-	text-indent: -13px;
-	max-width: 945px;
-	padding-left: 13px;
-}
-
 
 .fixed-container {
 	max-width: 1170px;
@@ -133,7 +123,7 @@ nav {
 		font-size: 25px;
 		color: #8993ad;
 		position: absolute;
-		top: 290px;
+		top: 340px;
 	}
 	#action1 {
 		top: 410px;
@@ -176,6 +166,16 @@ nav {
 	height: auto;
 	background: linear-gradient(20deg, #ff8f5a 35%, #ff2f96 75%);
 }
+	#price p {
+	font-size: 18px;
+	color: white;
+	margin: 50px auto 85px;	
+	line-height: 30px;
+	text-indent: -13px;
+	max-width: 945px;
+	padding-left: 13px;
+}
+
 
 @media (max-width: 1680px) {
 	h1 {
@@ -210,7 +210,7 @@ nav {
 	}
 	#intro p{
 		font-size: 25px;
-		top: 220px;
+		top: 270px;
 	}
 	#action1{
 		top: 340px;
@@ -276,7 +276,7 @@ nav {
 		font-size: 50px;	
 	}
 	#intro p {
-		top: 35px;	
+		top: 85px;	
 		left: 50px;	
 		z-index: 2;
 		font-size: 22px;
@@ -307,7 +307,11 @@ nav {
 		width: 400px;
 	}
 	h1 {		
-		font-size: 45px;	
+		font-size: 40px;	
+	}
+	#intro p {
+		margin-right: 30px;
+		font-size: 22px;
 	}
 }
 @media (max-width: 440px) {
@@ -327,7 +331,7 @@ nav {
 		line-height: 40px;
 		margin-top: 50px;
 	}
-	p {
+	#price p {
 		font-size: 15px;
 		padding-left: 13px;	
 		margin-bottom: 50px;	

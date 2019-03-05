@@ -284,6 +284,12 @@ nav {
 	
 }
 
+@media (max-width: 600px) {
+	.call {
+		display: none;
+	}
+}
+
 @media (max-width: 550px) {
 	#photo {
 		height: 400px;
@@ -296,13 +302,15 @@ nav {
 	h1 {		
 		font-size: 37px;
 		top: 30px;
-		left: 30px;
+		left: 30px;		
+
 	}
 	#whois {
 		left: 30px;
 		font-size: 20px;
 		white-space: pre-wrap;
 		text-align: center;
+		
 	}
 	#action1{
 		left: 30px;
@@ -319,12 +327,16 @@ nav {
 	}
 	h1 {		
 		font-size: 35px;		
-		left: 10px;
+		left: 15px;
 	}
 	#whois {
-		left: 10px;
+		left: 30px;
 		font-size: 18px;
 		width: 240px;	
+	}
+	#action1{
+		left: 20px;
+		width: 280px;
 	}
 }
 

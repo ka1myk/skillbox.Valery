@@ -176,6 +176,10 @@ nav {
 		transform: translateX(-50%);
 	}
 
+	#arrow {
+		fill: white;
+	}
+
 #price {
 	height: auto;
 	background: linear-gradient(20deg, #ff8f5a 35%, #ff2f96 75%);

@@ -65,12 +65,19 @@
      id="layer1"
      transform="translate(0,-992.36216)">
     <ellipse
-       style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       style="fill:#ffffff;fill-opacity:0;fill-rule:evenodd;stroke:#000000;stroke-width:0.1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        id="path3336"
        cx="30.430845"
        cy="1022.3101"
        rx="29.420692"
        ry="28.789349" />
+    <ellipse
+       style="fill:#363940;fill-opacity:0.11848342;stroke:none;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.24170616"
+       id="path5717"
+       cx="4.0406103"
+       cy="1035.0634"
+       rx="0.50507629"
+       ry="0.63134533" />
   </g>
   <g
      inkscape:groupmode="layer"

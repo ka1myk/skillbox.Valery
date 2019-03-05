@@ -15,7 +15,9 @@ header {
 
 footer {
 	height: 260px;
-	background-color: #ffffff;	
+	background-color: #ffffff;
+	display: flex;
+	justify-content: space-between;
 }
 
 footer ol {
@@ -59,6 +61,7 @@ h3 {
 	color: white;
 	font-size: 18px;
 	position: absolute;
+	cursor: pointer;
 }	
 	
 nav {
@@ -94,20 +97,20 @@ nav {
 	font-style: normal;
 }
 .call {
-	position: absolute;
-	right: 20px;
-	top: 28px;
+	position: absolute;	
 	height: 45px;
 	width: 206px;
 	background: none;
 	border: 2px solid #f82370;
 	color: #f82370;
-	font-size: 16px;	
+	font-size: 16px;
+	cursor: pointer;	
 }
 
-/*main .fixed-container {
-	overflow-y: hidden;	
-}*/
+#call1 {
+	right: 20px;
+	top: 28px;
+}
 
 .flex {
 	display: flex;

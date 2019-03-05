@@ -6,6 +6,7 @@ html, body {
 	font-family: 'Roboto';
 	font-style: normal;
 	font-weight: 400;	
+
 }
 
 header {
@@ -166,6 +167,7 @@ nav {
 #price {
 	height: auto;
 	background: linear-gradient(20deg, #ff8f5a 35%, #ff2f96 75%);
+	overflow: hidden;
 }
 	#price p {
 	font-size: 18px;

@@ -153,20 +153,25 @@ nav {
 	}
 
 
-#services {
-	
+#services {	
 	height: 650px;	
-	background-color: green;
-	
+	background-color: #ebebeb;	
 }
+	#action2 {
+		position: absolute;
+		top: 500px;
+		left: 50%; 
+		transform: translateX(-50%);
+	}
 
 #portfolio {
 	height: 850px;
-	background-color: red;
+	background-color: #d3d0d7;
+
 }
 	#action3 {
 		position: absolute;
-		top: 200px;
+		top: 650px;
 		left: 50%; 
 		transform: translateX(-50%);
 	}

@@ -288,6 +288,11 @@ nav {
 	.call {
 		display: none;
 	}
+	.telephone {
+		left: 75px;
+		right: 0;
+		font-size: 18px;
+	}
 }
 
 @media (max-width: 550px) {

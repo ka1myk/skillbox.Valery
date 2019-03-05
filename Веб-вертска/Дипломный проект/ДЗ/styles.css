@@ -15,9 +15,13 @@ header {
 
 footer {
 	height: 260px;
-	background-color: #ffffff;
+	background-color: #ffffff;	
+}
+
+footer .fixed-container{
 	display: flex;
 	justify-content: space-between;
+	flex-flow: row nowrap;
 }
 
 footer ol {
@@ -182,6 +186,18 @@ nav {
 	padding-left: 13px;
 }
 
+#footer-nav {
+	
+	margin-top: 80px;
+}
+#contacts {
+	
+	margin-top: 80px;
+}
+#social {
+	
+	margin-top: 80px;
+}
 
 @media (max-width: 1680px) {
 	h1 {

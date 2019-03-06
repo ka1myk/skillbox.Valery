@@ -196,16 +196,19 @@ nav {
 	padding-left: 13px;
 }
 
-#footer-nav {
-	
+#footer-nav {	
 	margin-top: 80px;
 }
-#contacts {
-	
+#contacts {	
 	margin-top: 80px;
 }
-#social {
 	
+	.icon-telephone:before {
+		background: linear-gradient(20deg, #ff8f5a 35%, #ff2f96 75%);
+		-webkit-text-fill-color: transparent;
+  display: initial;
+	}
+#social {	
 	margin-top: 80px;
 }
 

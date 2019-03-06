@@ -197,7 +197,6 @@ nav {
 		filter: drop-shadow(10px 15px 7px black);	
 	}
 
-
 #services {	
 	height: 650px;	
 	background-color: #ebebeb;	
@@ -353,11 +352,7 @@ nav {
 		right: 150px;
 		height: 550px;
 		width: 550px;
-	}
-	#photo image {
-		height: 550px;
-		width: 550px;
-	}
+	}	
 }
 
 @media (max-width: 1200px) {
@@ -384,11 +379,7 @@ nav {
 		right: 30px;
 		height: 450px;
 		width: 450px;
-	}
-	#photo image {
-		height: 450px;
-		width: 450px;
-	}
+	}	
 }
 @media (max-width: 980px) {
 	#intro {
@@ -452,11 +443,7 @@ nav {
 	#photo {
 		height: 400px;
 		width: 400px;
-	}
-	#photo image {
-		height: 400px;
-		width: 400px;
-	}
+	}	
 	h1 {		
 		font-size: 37px;
 		top: 30px;
@@ -478,11 +465,7 @@ nav {
 	#photo {
 		height: 350px;
 		width: 350px;
-	}
-	#photo image {
-		height: 350px;
-		width: 350px;
-	}
+	}	
 	h1 {		
 		font-size: 35px;		
 		left: 15px;
@@ -520,11 +503,7 @@ nav {
 		height: 300px;
 		width: 300px;
 		right: 10px;
-	}
-	#photo image {
-		height: 300px;
-		width: 300px;
-	}
+	}	
 	h1 {		
 		font-size: 30px;		
 	}

@@ -205,9 +205,15 @@ nav {
 	
 	.icon-telephone:before {
 		background: linear-gradient(20deg, #ff8f5a 35%, #ff2f96 75%);
-		-webkit-text-fill-color: transparent;
-  display: initial;
+  		 -webkit-background-clip: text;
+ 		 -webkit-text-fill-color: transparent;  		
 	}
+	.icon-envelope:before {
+		background: linear-gradient(20deg, #ff8f5a 35%, #ff2f96 75%);
+  		 -webkit-background-clip: text;
+ 		 -webkit-text-fill-color: transparent;
+	}
+	
 #social {	
 	margin-top: 80px;
 }

@@ -244,6 +244,14 @@ nav {
 #footer-nav {	
 	margin-top: 80px;
 }
+	.footer-cell {
+		padding-bottom: 10px;
+	}
+	.footer-cell a{
+		text-decoration: none;
+		font-size: 18px;
+		color: #acb3c5;		
+	}
 #contacts {	
 	margin-top: 80px;
 	min-width: 300px;

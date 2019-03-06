@@ -256,9 +256,6 @@ nav {
 	margin: 80px 0;
 	min-width: 300px;
 }
-	.icon {
-		margin-bottom: 20px;
-	}
 
 	.icon-telephone:before {
 		background: linear-gradient(20deg, #ff8f5a 35%, #ff2f96 75%);
@@ -270,7 +267,8 @@ nav {
 	#phonefooter {
 		display: inline-block;
 		padding-left: 15px;
-		font-size: 25px;		
+		font-size: 25px;
+		margin-bottom: 20px;
 	}
 	.icon-envelope:before {
 		background: linear-gradient(20deg, #ff8f5a 35%, #ff2f96 75%);
@@ -539,13 +537,24 @@ nav {
 		color: white;
 		font-size: 18px;
 		width: 280px;
-		margin-bottom: 40px;
+		margin-bottom: 30px;
 	}
 	#footer-nav {
 		margin: 45px 0;
 	}
+	.footer-cell a {
+		font-size: 15px;
+	}
 	#contacts {
 		margin: 0 0;
+	}
+	#phonefooter {
+		font-size: 20px;
+		color: #8993ad;
+	}
+	#e-mail {
+		font-size: 20px;
+		color: #8993ad;
 	}
 	#social {
 		margin-bottom: 40px;

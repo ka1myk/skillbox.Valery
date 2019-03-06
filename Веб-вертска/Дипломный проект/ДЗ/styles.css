@@ -288,14 +288,14 @@ nav {
 		height: 40px;
 		display: flex;
 		justify-content: space-between;
+		margin-top: 20px;
 	}
 
 	#vk {
 		width: 45px;
-		height: 40px;
-		background: none;
-		border: none;
+		height: 40px;		
 		background-image: url('img/socialicons.png');
+		background-position: 0 50%;
 	}
 	#fb {
 		width: 45px;
@@ -303,6 +303,7 @@ nav {
 		background: none;
 		border: none;
 		background-image: url('img/socialicons.png');
+		background-position: 35% 50%;
 	}
 	#twitter {
 		width: 45px;
@@ -310,6 +311,7 @@ nav {
 		background: none;
 		border: none;
 		background-image: url('img/socialicons.png');
+		background-position: 68% 50%;
 	}
 	#instagram {
 		width: 45px;
@@ -317,6 +319,7 @@ nav {
 		background: none;
 		border: none;
 		background-image: url('img/socialicons.png');
+		background-position: 100% 50%;
 	}
 
 

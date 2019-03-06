@@ -248,18 +248,18 @@ nav {
 	margin-top: 80px;
 	min-width: 200px;
 }
-	
+
 	.icon-telephone:before {
 		background: linear-gradient(20deg, #ff8f5a 35%, #ff2f96 75%);
   		 -webkit-background-clip: text;
  		 -webkit-text-fill-color: transparent; 
- 		 display: inline-block;
- 		 width: 25px;	
-	}
+ 		font-size: 30px;
+ 		vertical-align: middle;
+ 	}
 	#phonefooter {
 		 display: inline-block;
 		 padding-left: 10px;
-		 font-size: 25px;
+		 font-size: 25px;		
 	}
 	.icon-envelope:before {
 		background: linear-gradient(20deg, #ff8f5a 35%, #ff2f96 75%);

@@ -1,6 +1,7 @@
 $(function(){	
 	var canvas = document.getElementById('ellipse');
 	var ctx = canvas.getContext('2d');
+	/*http://www.professorcloud.com/svg-to-canvas/ */
 	{
 ctx.save();
 ctx.beginPath();
@@ -65,6 +66,12 @@ ctx.stroke();
 ctx.restore();
 ctx.restore();
 };
+
+var gradient = ctx.createLinearGradient(0.5,0,0,1);
+gradient.addColorStop(.2, '#ff2f96');
+gradient.addColorStop(.8, '#ff8f5a');
+ctx.fillStyle = gradient;
+
 
 	});
 

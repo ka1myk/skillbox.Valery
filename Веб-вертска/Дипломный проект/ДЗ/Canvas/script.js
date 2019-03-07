@@ -4,9 +4,9 @@ $(function(){
 	var ctx = canvas.getContext('2d');
 	/*http://www.professorcloud.com/svg-to-canvas/ */
 	{
-	var gradient = ctx.createLinearGradient(0,0,170,0);
+	var gradient = ctx.createLinearGradient(0, 0, 920, 700);
 	gradient.addColorStop(0, '#ff2f96');
-	gradient.addColorStop(1, '#ff8f5a');
+	gradient.addColorStop(0.8, '#ff8f5a');
 	ctx.fillStyle = gradient;
 ctx.save();
 ctx.beginPath();
@@ -24,7 +24,6 @@ ctx.lineCap = 'butt';
 ctx.lineJoin = 'miter';
 ctx.miterLimit = 4;
 ctx.save();
-ctx.fillStyle = "#ffffff";
 ctx.strokeStyle = "#000000";
 ctx.lineWidth = 1;
 ctx.beginPath();
@@ -66,7 +65,7 @@ ctx.bezierCurveTo(1.5,660.1,11.1,631.5,18.8,602.9);
 ctx.bezierCurveTo(26.9,574.3,40.8,546.6,55.5,519);
 ctx.lineTo(81,472.3);
 ctx.closePath();
-
+ctx.fill();
 ctx.stroke();
 ctx.restore();
 ctx.restore();

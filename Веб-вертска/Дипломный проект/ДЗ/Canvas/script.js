@@ -4,9 +4,9 @@ $(function(){
 	var ctx = canvas.getContext('2d');
 	/*http://www.professorcloud.com/svg-to-canvas/ */
 	{
-	var gradient = ctx.createLinearGradient(0, 0, 920, 700);
-	gradient.addColorStop(0, '#ff2f96');
-	gradient.addColorStop(0.8, '#ff8f5a');
+	var gradient = ctx.createLinearGradient(0, 920, 700, 0);
+	gradient.addColorStop(0.2, '#ff8f5a');
+	gradient.addColorStop(0.8, '#ff2f96');
 	ctx.fillStyle = gradient;
 ctx.save();
 ctx.beginPath();

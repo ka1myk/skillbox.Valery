@@ -1,8 +1,13 @@
-$(function(){	
+$(function(){		
+
 	var canvas = document.getElementById('ellipse');
 	var ctx = canvas.getContext('2d');
 	/*http://www.professorcloud.com/svg-to-canvas/ */
 	{
+	var gradient = ctx.createLinearGradient(0,0,170,0);
+	gradient.addColorStop(0, '#ff2f96');
+	gradient.addColorStop(1, '#ff8f5a');
+	ctx.fillStyle = gradient;
 ctx.save();
 ctx.beginPath();
 ctx.moveTo(0,0);
@@ -61,17 +66,10 @@ ctx.bezierCurveTo(1.5,660.1,11.1,631.5,18.8,602.9);
 ctx.bezierCurveTo(26.9,574.3,40.8,546.6,55.5,519);
 ctx.lineTo(81,472.3);
 ctx.closePath();
-ctx.fill();
+
 ctx.stroke();
 ctx.restore();
 ctx.restore();
 };
-
-var gradient = ctx.createLinearGradient(0.5,0,0,1);
-gradient.addColorStop(.2, '#ff2f96');
-gradient.addColorStop(.8, '#ff8f5a');
-ctx.fillStyle = gradient;
-
-
 	});
 

@@ -378,6 +378,9 @@ nav {
 	}	
 }
 @media (max-width: 980px) {
+	nav {
+		display: none;
+	}
 	#intro {
 		height: 750px;		
 	}
@@ -493,6 +496,7 @@ nav {
 	}
 	#ellipse {
 		top: 80px;
+		right: -80px;
 		height: 400px;
 	}
 	#photo {

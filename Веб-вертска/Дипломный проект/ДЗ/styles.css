@@ -303,6 +303,7 @@ nav {
 		height: 40px;		
 		background-image: url('img/socialicons.png');
 		background-position: 0 50%;
+		background-repeat: no-repeat;
 	}
 	#fb {
 		width: 45px;
@@ -311,6 +312,7 @@ nav {
 		border: none;
 		background-image: url('img/socialicons.png');
 		background-position: 35% 50%;
+		background-repeat: no-repeat;
 	}
 	#twitter {
 		width: 45px;
@@ -319,6 +321,7 @@ nav {
 		border: none;
 		background-image: url('img/socialicons.png');
 		background-position: 68% 50%;
+		background-repeat: no-repeat;
 	}
 	#instagram {
 		width: 45px;
@@ -327,6 +330,7 @@ nav {
 		border: none;
 		background-image: url('img/socialicons.png');
 		background-position: 100% 50%;
+		background-repeat: no-repeat;
 	}
 
 

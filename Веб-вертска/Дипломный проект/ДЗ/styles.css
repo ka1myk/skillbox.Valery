@@ -177,18 +177,20 @@ nav {
 		top: 410px;
 	}
 
-	#ellipse {
-		z-index: -1;
+	#ellipse {		
 		position: absolute;
-		right: -120px;
-		top: 50px;
-		max-width: 920px;		
-		max-height: 765px;
+		right: 0;
+		width: 920px;		
+		height: 700px;
+		background-image: url('img/Ellipse.svg');
+		background-size: cover;
+		background-repeat: no-repeat;
+		background-position: 
 		
 	}
-	#gradient-horizontal { 
+	/*#gradient-horizontal { 
 	  --color-stop-1: #ff2f96;
-	  --color-stop-2: #ff8f5a;
+	  --color-stop-2: #ff8f5a; */
 	}
 	#photo {
 		position: absolute;

@@ -180,18 +180,19 @@ nav {
 	#ellipse {		
 		position: absolute;
 		right: 0;
-		width: 920px;		
-		height: 700px;
+		bottom: 0;
+		width: 900px;		
+		height: 680px;
 		background-image: url('img/Ellipse.svg');
-		background-size: cover;
+		background-size: 120%;
 		background-repeat: no-repeat;
-		background-position: 
+		background-position: top left;
 		
 	}
 	/*#gradient-horizontal { 
 	  --color-stop-1: #ff2f96;
-	  --color-stop-2: #ff8f5a; */
-	}
+	  --color-stop-2: #ff8f5a; 
+	}*/
 	#photo {
 		position: absolute;
 		bottom: 0;
@@ -356,10 +357,9 @@ nav {
 	#action1 {
 		top: 390px;
 	}
-	#ellipse {
-		right: -200px;
-		height: 620px;
-		top: 110px;
+	#ellipse {		
+		height: 580px;
+		width: 700px;		
 	}
 	#photo {
 		right: 150px;
@@ -383,10 +383,9 @@ nav {
 	#action1{
 		top: 340px;
 	}	
-	#ellipse {
-		right: -300px;
-		top: 125px;
-		height: 520px;
+	#ellipse {		
+		height: 480px;
+		width: 600px;
 	}	
 	#photo {
 		right: 30px;

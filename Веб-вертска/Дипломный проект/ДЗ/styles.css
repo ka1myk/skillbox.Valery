@@ -188,11 +188,7 @@ nav {
 		background-repeat: no-repeat;
 		background-position: top left;
 		
-	}
-	/*#gradient-horizontal { 
-	  --color-stop-1: #ff2f96;
-	  --color-stop-2: #ff8f5a; 
-	}*/
+	}	
 	#photo {
 		position: absolute;
 		bottom: 0;
@@ -384,8 +380,8 @@ nav {
 		top: 340px;
 	}	
 	#ellipse {		
-		height: 480px;
-		width: 600px;
+		height: 470px;
+		width: 550px;
 	}	
 	#photo {
 		right: 30px;
@@ -509,7 +505,8 @@ nav {
 	}
 	#ellipse {
 		top: 80px;
-		height: 400px;
+		height: 300px;		
+		width: 450px;
 	}
 	#photo {
 		height: 300px;
